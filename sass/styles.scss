@@ -51,7 +51,7 @@ $secondary-color: hsl(303, 10%, 53%);
     p {
       line-height: 1.4;
       font-size: 1rem;
-      color: hsl(303, 10%, 53%);
+      color: $secondary-color;
 
       @include desktop {
         padding-left: 25px;
